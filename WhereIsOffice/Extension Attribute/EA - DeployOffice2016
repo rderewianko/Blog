@@ -3,17 +3,20 @@
 # Created By: Ross Derewianko
 # there's the truth... and the truth.
 # Creation Date: July 2017
-# Last modified: July 16, 2015
-# Brief Description: Checks to see if vpn is newly deployed
+# Last modified: July 16, 2017
+# Brief Description: Checks to see if the where is office exists
+# checks for excel and then defines if needed
 ########################################################################
 
 
 #Check to see if Where Is Office exists and spit a result
-if [ -f "/Applications/Microsoft Office 2016/Where Is Office.txt" ]; then
+if [[ -f "/Applications/Microsoft Office 2016/Where Is Office.txt" ]]; then
+
 	#Check that we're not creating a false positive and check to see if excel exists
-	if [ -f "/Applications/Microsoft Excel.app/Contents/MacOS/Microsoft Excel" ]; then
+	if [[ -f "/Applications/Microsoft Excel.app/Contents/MacOS/Microsoft Excel" ]]; then
 		echo "excel exists"
 		echo "<result>no</result>"
+		#remove office because it already exists!
 		rm -rf "/Applications/Microsoft Office 2016"
 	else 
 		#Tell Casper office needs to be deployed
