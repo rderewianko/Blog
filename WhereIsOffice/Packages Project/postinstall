@@ -16,13 +16,15 @@ install_dir=`dirname $0`
 #Move them all into a folder like on 2011
 mkdir /Applications/Microsoft\ Office\ 2016
 chown root:wheel /Applications/Microsoft\ Office\ 2016
+
+##Edit the lines below to contain the text you'd prefer
 echo "Welcome to your New Mac!" > /Applications/Microsoft\ Office\ 2016/Where\ Is\ Office.txt
 echo "To speed up the preparations of your Mac, Microsoft Office 2016 will appear by the end of the day." >> /Applications/Microsoft\ Office\ 2016/Where\ Is\ Office.txt
 echo "A popup will appear after Microsoft Office 2016 has been installed." >> /Applications/Microsoft\ Office\ 2016/Where\ Is\ Office.txt
 
 
 
-
+## Edit the Icon name if you'd like ka different icon for the folder
 #lets make that folder have a nice icon
 python $install_dir"/set-image.py" $install_dir"/Blackvariant-Button-Ui-Ms-Office-2016-Office.png" /Applications/Microsoft\ Office\ 2016/
 
