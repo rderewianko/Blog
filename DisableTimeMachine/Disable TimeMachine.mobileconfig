@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>PayloadIdentifier</key>
+        <string>com.rderewianko.disabletimemachine</string>
+        <key>PayloadRemovalDisallowed</key>
+        <true/>
+        <key>PayloadScope</key>
+        <string>User</string>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+        <string>0324dc8c-b978-465b-9b7b-55a7f30dd06b</string>
+        <key>PayloadOrganization</key>
+        <string>Disable Time Machine</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadDisplayName</key>
+        <string>Settings for Everyone</string>
+        <key>PayloadDescription</key>
+        <string>Disables the System Preference for Time Machine</string>
+        <key>PayloadContent</key>
+        <array>
+             <dict>
+                <key>PayloadType</key>
+                <string>com.apple.systempreferences</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+                <key>PayloadIdentifier</key>
+                <string>com.rderewianko.disabletimemachine</string>
+                <key>PayloadEnabled</key>
+                <true/>
+                <key>PayloadUUID</key>
+                <string>3bcfecbd-4584-54c2-edf7-08ecf944f189</string>
+                <key>PayloadDisplayName</key>
+                <string>System Preferences</string>
+                <key>DisabledPreferencePanes</key>
+                <array>
+                    <string>com.apple.prefs.backup</string>
+                </array>
+            </dict> 
+        </array>
+    </dict>
+</plist>
