@@ -35,7 +35,6 @@ https://apple.stackexchange.com/questions/305627/what-is-causing-high-sierra-to-
 
 ## HFS+ gets converted to APFS by FileVault
 "also, neat (but dumb) 10.13 bug i just encountered: if you encrypt an existing HFS+ external drive, the OS converts it to APFS, then encrypts. even for time machine drives, which should remain HFS+."
-https://macadmins.slack.com/archives/G4KM2NGDN/p1513961143000428
 
 ## New Disk Images are APFS by default
 This already bit one vendor that put out a new installer (Prezi Desktop).
