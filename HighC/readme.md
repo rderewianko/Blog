@@ -12,10 +12,10 @@ With these undocumented changes, av/next gen av providers have had a hard time e
 https://simplemdm.com/2017/11/01/user-approved-mdm-enrollment/
 
 ## fdsetup 
-# recovery key overwrite - rdar://34633465
+### recovery key overwrite - rdar://34633465
 `fdesetup changerecovery -personal` with wrong password deletes recovery key
     https://openradar.appspot.com/34633465
-# fdesetup changerecovery deletes recovery keys (10.13.1/17B46a) - rdar://35258997
+### fdesetup changerecovery deletes recovery keys (10.13.1/17B46a) - rdar://35258997
 http://www.openradar.me/radar?id=4943461371346944
 
 ## SecureToken issues with accounts - rdar://34874069 
