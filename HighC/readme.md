@@ -1,4 +1,4 @@
-# Sierra has had numerous issues. I'll try and capture some of them here
+# High Sierra has had numerous issues. I'll try and capture some of them here
 
 
 ## Rootless
