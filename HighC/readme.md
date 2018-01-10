@@ -38,3 +38,6 @@ https://apple.stackexchange.com/questions/305627/what-is-causing-high-sierra-to-
 
 ## New Disk Images are APFS by default
 This already bit one vendor that put out a new installer (Prezi Desktop).
+
+## Authorization on MacApp store system preferences also accepts any password.
+https://www.macrumors.com/2018/01/10/macos-high-sierra-app-store-password-bug/
